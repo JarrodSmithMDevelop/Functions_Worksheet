@@ -12,10 +12,10 @@ var weight;                         //Weight of an individual
 
 //Inputs
 
-weight = Number(prompt("Enter a weight."));
+weight = Number(prompt("Enter a weight."));                     //Prompt to input weight
 
 if (weight === 0){
-    weight = Number(prompt("Please enter a weight."));
+    weight = Number(prompt("Please enter a weight."));          //Ensures you entered a number.
 }
 
 //Functions
